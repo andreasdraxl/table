@@ -1,0 +1,29 @@
+{
+  "name": "table",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11"
+  },
+  "dependencies": {
+    "@thatopen/components": "^2.4.3",
+    "@thatopen/components-front": "^2.4.3",
+    "@thatopen/fragments": "^2.4.0",
+    "@thatopen/ui": "^2.4.1",
+    "@thatopen/ui-obc": "^2.4.1",
+    "lit": "^3.2.1",
+    "three": "0.160.1"
+  }
+}

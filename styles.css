@@ -1,0 +1,15 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--bim-ui_bg-base);
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+}
