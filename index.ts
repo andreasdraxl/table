@@ -1,6 +1,6 @@
 import { LitElement, css, html } from "lit";
 import { property, state } from "./lit/decorators.js";
-import { styles } from "./styles";
+import { styles } from "@thatopen/components-front";
 import {
   TableChildren,
   TableDataTransform,
