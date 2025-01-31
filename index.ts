@@ -1,6 +1,6 @@
 import { LitElement, css, html } from "lit";
 import { property, state } from "./lit/decorators.js";
-import { styles } from "@thatopen/components-front";
+import { styles } from "@thatopen/ui";
 import {
   TableChildren,
   TableDataTransform,
@@ -11,7 +11,7 @@ import {
   TableRowTemplate,
   ColumnData,
 } from "./src";
-import { evalCondition, getQuery } from "../../core/utils";
+import { evalCondition, getQuery } from "@thatopen/ui";
 import { loadingSkeleton } from "./src/loading-skeleton";
 import { processingBar } from "./src/processing-bar";
 
